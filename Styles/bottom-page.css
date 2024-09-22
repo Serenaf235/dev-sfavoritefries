@@ -1,0 +1,66 @@
+.bottom-section{
+    background-color: #11122b; 
+    color:#cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+.bottom-section>.banner-image img{
+    width: 180px;
+    height:100%;
+    filter: brightness(50%);
+
+}
+
+.bottom-section>.info-wrapper span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    
+    
+}
+.bottom-section>.info-wrapper>.hours{
+    color: #cea135;
+    font-family:"Ubuntu Condensed", sans-serif;
+    font-size: 0.8em;
+    /*text-transform:capitalize will tae each word and capiraize it*/
+}
+
+.bottom-section>.links-wrapper{
+   width: 400px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+    
+}
+
+.bottom-section>.icons{
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bottom-section>.icons a{
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition:0.5s;
+    
+}
+
+.bottom-section>.icons a:hover{
+    color:#cea135;
+    
+}
+
+.bottom-section>.copyright-wrapper{
+    margin-bottom: 32px;
+    font-size:0.7em ;
+    color:#858585;
+}
